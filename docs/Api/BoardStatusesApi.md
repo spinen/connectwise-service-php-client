@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **serviceBoardsIdStatusesCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceBoardsIdStatusesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceBoardsIdStatusesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdStatusesGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status[] serviceBoardsIdStatusesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\Status[] serviceBoardsIdStatusesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status[]**](../Model/Status.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Status[]**](../Model/Status.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdStatusesPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status serviceBoardsIdStatusesPost($id, $status)
+> \Spinen\ConnectWise\Clients\Service\Model\Status serviceBoardsIdStatusesPost($id, $status)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\BoardStatusesApi();
 $id = 56; // int | 
-$status = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status | 
+$status = new \Spinen\ConnectWise\Clients\Service\Model\Status(); // \Spinen\ConnectWise\Clients\Service\Model\Status | 
 
 try {
     $result = $api_instance->serviceBoardsIdStatusesPost($id, $status);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **status** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status.md)|  |
+ **status** | [**\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Status.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/Status.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/Status.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdStatusesStatusIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status serviceBoardsIdStatusesStatusIdGet($id, $status_id)
+> \Spinen\ConnectWise\Clients\Service\Model\Status serviceBoardsIdStatusesStatusIdGet($id, $status_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/Status.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/Status.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdStatusesStatusIdPatch**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status serviceBoardsIdStatusesStatusIdPatch($id, $status_id, $operations)
+> \Spinen\ConnectWise\Clients\Service\Model\Status serviceBoardsIdStatusesStatusIdPatch($id, $status_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\BoardStatusesApi();
 $id = 56; // int | 
 $status_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->serviceBoardsIdStatusesStatusIdPatch($id, $status_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **status_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/Status.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/Status.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdStatusesStatusIdPut**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status serviceBoardsIdStatusesStatusIdPut($id, $status_id, $status)
+> \Spinen\ConnectWise\Clients\Service\Model\Status serviceBoardsIdStatusesStatusIdPut($id, $status_id, $status)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\BoardStatusesApi();
 $id = 56; // int | 
 $status_id = 56; // int | 
-$status = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status | 
+$status = new \Spinen\ConnectWise\Clients\Service\Model\Status(); // \Spinen\ConnectWise\Clients\Service\Model\Status | 
 
 try {
     $result = $api_instance->serviceBoardsIdStatusesStatusIdPut($id, $status_id, $status);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **status_id** | **int**|  |
- **status** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status.md)|  |
+ **status** | [**\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Status.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/Status.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Status**](../Model/Status.md)
 
 ### Authorization
 

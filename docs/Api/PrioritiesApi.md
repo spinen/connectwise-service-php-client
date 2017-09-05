@@ -16,7 +16,7 @@ Method | HTTP request | Description
 
 
 # **servicePrioritiesCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count servicePrioritiesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Service\Model\Count servicePrioritiesCountGet($conditions)
 
 
 
@@ -51,7 +51,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -65,7 +65,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **servicePrioritiesGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority[] servicePrioritiesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\Priority[] servicePrioritiesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -110,7 +110,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority[]**](../Model/Priority.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Priority[]**](../Model/Priority.md)
 
 ### Authorization
 
@@ -172,7 +172,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **servicePrioritiesIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority servicePrioritiesIdGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\Priority servicePrioritiesIdGet($id)
 
 
 
@@ -207,7 +207,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/Priority.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/Priority.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **servicePrioritiesIdPatch**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority servicePrioritiesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Service\Model\Priority servicePrioritiesIdPatch($id, $operations)
 
 
 
@@ -290,7 +290,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\PrioritiesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->servicePrioritiesIdPatch($id, $operations);
@@ -306,11 +306,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/Priority.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/Priority.md)
 
 ### Authorization
 
@@ -324,7 +324,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **servicePrioritiesIdPut**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority servicePrioritiesIdPut($id, $priority)
+> \Spinen\ConnectWise\Clients\Service\Model\Priority servicePrioritiesIdPut($id, $priority)
 
 
 
@@ -341,7 +341,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\PrioritiesApi();
 $id = 56; // int | 
-$priority = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority | 
+$priority = new \Spinen\ConnectWise\Clients\Service\Model\Priority(); // \Spinen\ConnectWise\Clients\Service\Model\Priority | 
 
 try {
     $result = $api_instance->servicePrioritiesIdPut($id, $priority);
@@ -357,11 +357,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **priority** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority.md)|  |
+ **priority** | [**\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Priority.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/Priority.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/Priority.md)
 
 ### Authorization
 
@@ -375,7 +375,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **servicePrioritiesPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority servicePrioritiesPost($priority)
+> \Spinen\ConnectWise\Clients\Service\Model\Priority servicePrioritiesPost($priority)
 
 
 
@@ -391,7 +391,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\PrioritiesApi();
-$priority = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority | 
+$priority = new \Spinen\ConnectWise\Clients\Service\Model\Priority(); // \Spinen\ConnectWise\Clients\Service\Model\Priority | 
 
 try {
     $result = $api_instance->servicePrioritiesPost($priority);
@@ -406,11 +406,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **priority** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority.md)|  |
+ **priority** | [**\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Priority.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/Priority.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Priority**](../Model/Priority.md)
 
 ### Authorization
 

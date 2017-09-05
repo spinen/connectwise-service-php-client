@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -56,10 +56,10 @@ class SubtypeAssociation implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'type' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceTypeReference',
-        'sub_type' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceSubTypeReference',
-        'board' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\BoardReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        'type' => '\Spinen\ConnectWise\Clients\Service\Model\ServiceTypeReference',
+        'sub_type' => '\Spinen\ConnectWise\Clients\Service\Model\ServiceSubTypeReference',
+        'board' => '\Spinen\ConnectWise\Clients\Service\Model\BoardReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -195,7 +195,7 @@ class SubtypeAssociation implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceTypeReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\ServiceTypeReference
      */
     public function getType()
     {
@@ -204,7 +204,7 @@ class SubtypeAssociation implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Service\Model\ServiceTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -216,7 +216,7 @@ class SubtypeAssociation implements ArrayAccess
 
     /**
      * Gets sub_type
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceSubTypeReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\ServiceSubTypeReference
      */
     public function getSubType()
     {
@@ -225,7 +225,7 @@ class SubtypeAssociation implements ArrayAccess
 
     /**
      * Sets sub_type
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceSubTypeReference $sub_type
+     * @param \Spinen\ConnectWise\Clients\Service\Model\ServiceSubTypeReference $sub_type
      * @return $this
      */
     public function setSubType($sub_type)
@@ -237,7 +237,7 @@ class SubtypeAssociation implements ArrayAccess
 
     /**
      * Gets board
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\BoardReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\BoardReference
      */
     public function getBoard()
     {
@@ -246,7 +246,7 @@ class SubtypeAssociation implements ArrayAccess
 
     /**
      * Sets board
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\BoardReference $board
+     * @param \Spinen\ConnectWise\Clients\Service\Model\BoardReference $board
      * @return $this
      */
     public function setBoard($board)
@@ -258,7 +258,7 @@ class SubtypeAssociation implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -267,7 +267,7 @@ class SubtypeAssociation implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

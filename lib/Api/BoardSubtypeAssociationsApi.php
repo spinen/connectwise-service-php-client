@@ -199,7 +199,7 @@ class BoardSubtypeAssociationsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -219,7 +219,7 @@ class BoardSubtypeAssociationsApi
      * @param int $subtype_id  (required)
      * @param int $association_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation
+     * @return \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation
      */
     public function serviceBoardsBoardIdSubTypesSubtypeIdAssociationsAssociationIdGet($board_id, $subtype_id, $association_id)
     {
@@ -238,7 +238,7 @@ class BoardSubtypeAssociationsApi
      * @param int $subtype_id  (required)
      * @param int $association_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsBoardIdSubTypesSubtypeIdAssociationsAssociationIdGetWithHttpInfo($board_id, $subtype_id, $association_id)
     {
@@ -312,19 +312,19 @@ class BoardSubtypeAssociationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation',
+                '\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation',
                 '/service/boards/{boardId}/subTypes/{subtypeId}/associations/{associationId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -344,7 +344,7 @@ class BoardSubtypeAssociationsApi
      * @param int $subtype_id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Count
      */
     public function serviceBoardsBoardIdSubTypesSubtypeIdAssociationsCountGet($board_id, $subtype_id, $conditions = null)
     {
@@ -363,7 +363,7 @@ class BoardSubtypeAssociationsApi
      * @param int $subtype_id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsBoardIdSubTypesSubtypeIdAssociationsCountGetWithHttpInfo($board_id, $subtype_id, $conditions = null)
     {
@@ -429,19 +429,19 @@ class BoardSubtypeAssociationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count',
+                '\Spinen\ConnectWise\Clients\Service\Model\Count',
                 '/service/boards/{boardId}/subTypes/{subtypeId}/associations/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -466,7 +466,7 @@ class BoardSubtypeAssociationsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]
+     * @return \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]
      */
     public function serviceBoardsBoardIdSubTypesSubtypeIdAssociationsGet($board_id, $subtype_id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -490,7 +490,7 @@ class BoardSubtypeAssociationsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[], HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsBoardIdSubTypesSubtypeIdAssociationsGetWithHttpInfo($board_id, $subtype_id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -576,19 +576,19 @@ class BoardSubtypeAssociationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]',
+                '\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]',
                 '/service/boards/{boardId}/subTypes/{subtypeId}/associations'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -606,9 +606,9 @@ class BoardSubtypeAssociationsApi
      *
      * @param int $board_id  (required)
      * @param int $subtype_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation $subtype_association  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation $subtype_association  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation
+     * @return \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation
      */
     public function serviceBoardsBoardIdSubTypesSubtypeIdAssociationsPost($board_id, $subtype_id, $subtype_association)
     {
@@ -625,9 +625,9 @@ class BoardSubtypeAssociationsApi
      *
      * @param int $board_id  (required)
      * @param int $subtype_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation $subtype_association  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation $subtype_association  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsBoardIdSubTypesSubtypeIdAssociationsPostWithHttpInfo($board_id, $subtype_id, $subtype_association)
     {
@@ -698,19 +698,19 @@ class BoardSubtypeAssociationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation',
+                '\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation',
                 '/service/boards/{boardId}/subTypes/{subtypeId}/associations'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

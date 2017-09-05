@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **serviceSurveysIdQuestionsCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceSurveysIdQuestionsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceSurveysIdQuestionsCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSurveysIdQuestionsGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion[] serviceSurveysIdQuestionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion[] serviceSurveysIdQuestionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion[]**](../Model/SurveyQuestion.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion[]**](../Model/SurveyQuestion.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSurveysIdQuestionsPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion serviceSurveysIdQuestionsPost($id, $survey_question)
+> \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion serviceSurveysIdQuestionsPost($id, $survey_question)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\SurveyQuestionsApi();
 $id = 56; // int | 
-$survey_question = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion | 
+$survey_question = new \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion(); // \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion | 
 
 try {
     $result = $api_instance->serviceSurveysIdQuestionsPost($id, $survey_question);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **survey_question** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion.md)|  |
+ **survey_question** | [**\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/SurveyQuestion.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/SurveyQuestion.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSurveysIdQuestionsQuestionIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion serviceSurveysIdQuestionsQuestionIdGet($id, $question_id)
+> \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion serviceSurveysIdQuestionsQuestionIdGet($id, $question_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/SurveyQuestion.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/SurveyQuestion.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSurveysIdQuestionsQuestionIdPatch**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion serviceSurveysIdQuestionsQuestionIdPatch($id, $question_id, $operations)
+> \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion serviceSurveysIdQuestionsQuestionIdPatch($id, $question_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\SurveyQuestionsApi();
 $id = 56; // int | 
 $question_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->serviceSurveysIdQuestionsQuestionIdPatch($id, $question_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **question_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/SurveyQuestion.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/SurveyQuestion.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSurveysIdQuestionsQuestionIdPut**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion serviceSurveysIdQuestionsQuestionIdPut($id, $question_id, $survey_question)
+> \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion serviceSurveysIdQuestionsQuestionIdPut($id, $question_id, $survey_question)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\SurveyQuestionsApi();
 $id = 56; // int | 
 $question_id = 56; // int | 
-$survey_question = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion | 
+$survey_question = new \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion(); // \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion | 
 
 try {
     $result = $api_instance->serviceSurveysIdQuestionsQuestionIdPut($id, $question_id, $survey_question);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **question_id** | **int**|  |
- **survey_question** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion.md)|  |
+ **survey_question** | [**\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/SurveyQuestion.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestion**](../Model/SurveyQuestion.md)
 
 ### Authorization
 

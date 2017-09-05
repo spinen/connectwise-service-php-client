@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class TicketMerge implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'merge_ticket_ids' => 'int[]',
-        'status' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceStatusReference'
+        'status' => '\Spinen\ConnectWise\Clients\Service\Model\ServiceStatusReference'
     ];
 
     public static function swaggerTypes()
@@ -186,7 +186,7 @@ class TicketMerge implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceStatusReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\ServiceStatusReference
      */
     public function getStatus()
     {
@@ -195,7 +195,7 @@ class TicketMerge implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Service\Model\ServiceStatusReference $status
      * @return $this
      */
     public function setStatus($status)

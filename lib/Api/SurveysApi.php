@@ -96,7 +96,7 @@ class SurveysApi
      *
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Count
      */
     public function serviceSurveysCountGet($conditions = null)
     {
@@ -113,7 +113,7 @@ class SurveysApi
      *
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceSurveysCountGetWithHttpInfo($conditions = null)
     {
@@ -155,19 +155,19 @@ class SurveysApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count',
+                '\Spinen\ConnectWise\Clients\Service\Model\Count',
                 '/service/surveys/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -190,7 +190,7 @@ class SurveysApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey[]
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Survey[]
      */
     public function serviceSurveysGet($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -212,7 +212,7 @@ class SurveysApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Survey[], HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceSurveysGetWithHttpInfo($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -274,19 +274,19 @@ class SurveysApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey[]',
+                '\Spinen\ConnectWise\Clients\Service\Model\Survey[]',
                 '/service/surveys'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Survey[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Survey[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -379,7 +379,7 @@ class SurveysApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -397,7 +397,7 @@ class SurveysApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Survey
      */
     public function serviceSurveysIdGet($id)
     {
@@ -414,7 +414,7 @@ class SurveysApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Survey, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceSurveysIdGetWithHttpInfo($id)
     {
@@ -464,19 +464,19 @@ class SurveysApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey',
+                '\Spinen\ConnectWise\Clients\Service\Model\Survey',
                 '/service/surveys/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Survey', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Survey', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -493,9 +493,9 @@ class SurveysApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Survey
      */
     public function serviceSurveysIdPatch($id, $operations)
     {
@@ -511,9 +511,9 @@ class SurveysApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Survey, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceSurveysIdPatchWithHttpInfo($id, $operations)
     {
@@ -572,19 +572,19 @@ class SurveysApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey',
+                '\Spinen\ConnectWise\Clients\Service\Model\Survey',
                 '/service/surveys/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Survey', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Survey', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -601,9 +601,9 @@ class SurveysApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey $survey  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Survey $survey  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Survey
      */
     public function serviceSurveysIdPut($id, $survey)
     {
@@ -619,9 +619,9 @@ class SurveysApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey $survey  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Survey $survey  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Survey, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceSurveysIdPutWithHttpInfo($id, $survey)
     {
@@ -680,19 +680,19 @@ class SurveysApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey',
+                '\Spinen\ConnectWise\Clients\Service\Model\Survey',
                 '/service/surveys/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Survey', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Survey', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -708,9 +708,9 @@ class SurveysApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey $survey  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Survey $survey  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Survey
      */
     public function serviceSurveysPost($survey)
     {
@@ -725,9 +725,9 @@ class SurveysApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey $survey  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Survey $survey  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Survey, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceSurveysPostWithHttpInfo($survey)
     {
@@ -774,19 +774,19 @@ class SurveysApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey',
+                '\Spinen\ConnectWise\Clients\Service\Model\Survey',
                 '/service/surveys'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Survey', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Survey', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Survey', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

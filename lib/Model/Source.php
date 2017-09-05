@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -58,7 +58,7 @@ class Source implements ArrayAccess
         'id' => 'int',
         'name' => 'string',
         'default_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata',
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata',
         'entered_by' => 'string',
         'date_entered' => '\DateTime'
     ];
@@ -253,7 +253,7 @@ class Source implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -262,7 +262,7 @@ class Source implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **serviceTicketsIdTasksCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdTasksCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdTasksCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdTasksGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task[] serviceTicketsIdTasksGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\Task[] serviceTicketsIdTasksGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task[]**](../Model/Task.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Task[]**](../Model/Task.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdTasksPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task serviceTicketsIdTasksPost($id, $task)
+> \Spinen\ConnectWise\Clients\Service\Model\Task serviceTicketsIdTasksPost($id, $task)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\TicketTasksApi();
 $id = 56; // int | 
-$task = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task | 
+$task = new \Spinen\ConnectWise\Clients\Service\Model\Task(); // \Spinen\ConnectWise\Clients\Service\Model\Task | 
 
 try {
     $result = $api_instance->serviceTicketsIdTasksPost($id, $task);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **task** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task.md)|  |
+ **task** | [**\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Task.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/Task.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/Task.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdTasksTaskIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task serviceTicketsIdTasksTaskIdGet($id, $task_id)
+> \Spinen\ConnectWise\Clients\Service\Model\Task serviceTicketsIdTasksTaskIdGet($id, $task_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/Task.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/Task.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdTasksTaskIdPatch**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task serviceTicketsIdTasksTaskIdPatch($id, $task_id, $operations)
+> \Spinen\ConnectWise\Clients\Service\Model\Task serviceTicketsIdTasksTaskIdPatch($id, $task_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\TicketTasksApi();
 $id = 56; // int | 
 $task_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->serviceTicketsIdTasksTaskIdPatch($id, $task_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **task_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/Task.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/Task.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdTasksTaskIdPut**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task serviceTicketsIdTasksTaskIdPut($id, $task_id, $task)
+> \Spinen\ConnectWise\Clients\Service\Model\Task serviceTicketsIdTasksTaskIdPut($id, $task_id, $task)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\TicketTasksApi();
 $id = 56; // int | 
 $task_id = 56; // int | 
-$task = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task | 
+$task = new \Spinen\ConnectWise\Clients\Service\Model\Task(); // \Spinen\ConnectWise\Clients\Service\Model\Task | 
 
 try {
     $result = $api_instance->serviceTicketsIdTasksTaskIdPut($id, $task_id, $task);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **task_id** | **int**|  |
- **task** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task.md)|  |
+ **task** | [**\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Task.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/Task.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Task**](../Model/Task.md)
 
 ### Authorization
 

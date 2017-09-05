@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -61,15 +61,15 @@ class ServiceNote implements ArrayAccess
         'detail_description_flag' => 'bool',
         'internal_analysis_flag' => 'bool',
         'resolution_flag' => 'bool',
-        'member' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\MemberReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ContactReference',
+        'member' => '\Spinen\ConnectWise\Clients\Service\Model\MemberReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Service\Model\ContactReference',
         'customer_updated_flag' => 'bool',
         'process_notifications' => 'bool',
         'date_created' => 'string',
         'created_by' => 'string',
         'internal_flag' => 'bool',
         'external_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -344,7 +344,7 @@ class ServiceNote implements ArrayAccess
 
     /**
      * Gets member
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\MemberReference
      */
     public function getMember()
     {
@@ -353,7 +353,7 @@ class ServiceNote implements ArrayAccess
 
     /**
      * Sets member
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\MemberReference $member
+     * @param \Spinen\ConnectWise\Clients\Service\Model\MemberReference $member
      * @return $this
      */
     public function setMember($member)
@@ -365,7 +365,7 @@ class ServiceNote implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\ContactReference
      */
     public function getContact()
     {
@@ -374,7 +374,7 @@ class ServiceNote implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Service\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -512,7 +512,7 @@ class ServiceNote implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -521,7 +521,7 @@ class ServiceNote implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

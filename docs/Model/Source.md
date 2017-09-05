@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **id** | **int** |  | [optional] 
 **name** | **string** |  | 
 **default_flag** | **bool** |  | [optional] 
-**_info** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Service\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 **entered_by** | **string** |  | [optional] 
 **date_entered** | [**\DateTime**](\DateTime.md) |  | [optional] 
 

@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **serviceKnowledgeBaseArticlesCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceKnowledgeBaseArticlesCountGet($conditions, $custom_field_conditions)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceKnowledgeBaseArticlesCountGet($conditions, $custom_field_conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceKnowledgeBaseArticlesGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle[] serviceKnowledgeBaseArticlesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle[] serviceKnowledgeBaseArticlesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -111,7 +111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle[]**](../Model/KnowledgeBaseArticle.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle[]**](../Model/KnowledgeBaseArticle.md)
 
 ### Authorization
 
@@ -173,7 +173,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceKnowledgeBaseArticlesIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle serviceKnowledgeBaseArticlesIdGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle serviceKnowledgeBaseArticlesIdGet($id)
 
 
 
@@ -208,7 +208,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/KnowledgeBaseArticle.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/KnowledgeBaseArticle.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceKnowledgeBaseArticlesIdPatch**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle serviceKnowledgeBaseArticlesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle serviceKnowledgeBaseArticlesIdPatch($id, $operations)
 
 
 
@@ -239,7 +239,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\KnowledgeBaseArticlesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->serviceKnowledgeBaseArticlesIdPatch($id, $operations);
@@ -255,11 +255,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/KnowledgeBaseArticle.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/KnowledgeBaseArticle.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceKnowledgeBaseArticlesIdPut**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle serviceKnowledgeBaseArticlesIdPut($id, $knowledge_base_article)
+> \Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle serviceKnowledgeBaseArticlesIdPut($id, $knowledge_base_article)
 
 
 
@@ -290,7 +290,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\KnowledgeBaseArticlesApi();
 $id = 56; // int | 
-$knowledge_base_article = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle | 
+$knowledge_base_article = new \Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle(); // \Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle | 
 
 try {
     $result = $api_instance->serviceKnowledgeBaseArticlesIdPut($id, $knowledge_base_article);
@@ -306,11 +306,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **knowledge_base_article** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle.md)|  |
+ **knowledge_base_article** | [**\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/KnowledgeBaseArticle.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/KnowledgeBaseArticle.md)
 
 ### Authorization
 
@@ -324,7 +324,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceKnowledgeBaseArticlesPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle serviceKnowledgeBaseArticlesPost($knowledge_base_article)
+> \Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle serviceKnowledgeBaseArticlesPost($knowledge_base_article)
 
 
 
@@ -340,7 +340,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\KnowledgeBaseArticlesApi();
-$knowledge_base_article = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle | 
+$knowledge_base_article = new \Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle(); // \Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle | 
 
 try {
     $result = $api_instance->serviceKnowledgeBaseArticlesPost($knowledge_base_article);
@@ -355,11 +355,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **knowledge_base_article** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle.md)|  |
+ **knowledge_base_article** | [**\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/KnowledgeBaseArticle.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\KnowledgeBaseArticle**](../Model/KnowledgeBaseArticle.md)
 
 ### Authorization
 

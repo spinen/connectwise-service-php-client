@@ -16,7 +16,7 @@ Method | HTTP request | Description
 
 
 # **serviceBoardsIdTypesCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceBoardsIdTypesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceBoardsIdTypesCountGet($id, $conditions)
 
 
 
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdTypesGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type[] serviceBoardsIdTypesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\Type[] serviceBoardsIdTypesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -114,7 +114,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type[]**](../Model/Type.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Type[]**](../Model/Type.md)
 
 ### Authorization
 
@@ -128,7 +128,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdTypesPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type serviceBoardsIdTypesPost($id, $type)
+> \Spinen\ConnectWise\Clients\Service\Model\Type serviceBoardsIdTypesPost($id, $type)
 
 
 
@@ -145,7 +145,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\BoardTypesApi();
 $id = 56; // int | 
-$type = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type | 
+$type = new \Spinen\ConnectWise\Clients\Service\Model\Type(); // \Spinen\ConnectWise\Clients\Service\Model\Type | 
 
 try {
     $result = $api_instance->serviceBoardsIdTypesPost($id, $type);
@@ -161,11 +161,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **type** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type.md)|  |
+ **type** | [**\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Type.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/Type.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/Type.md)
 
 ### Authorization
 
@@ -229,7 +229,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdTypesTypeIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type serviceBoardsIdTypesTypeIdGet($id, $type_id)
+> \Spinen\ConnectWise\Clients\Service\Model\Type serviceBoardsIdTypesTypeIdGet($id, $type_id)
 
 
 
@@ -266,7 +266,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/Type.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/Type.md)
 
 ### Authorization
 
@@ -280,7 +280,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdTypesTypeIdPatch**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type serviceBoardsIdTypesTypeIdPatch($id, $type_id, $operations)
+> \Spinen\ConnectWise\Clients\Service\Model\Type serviceBoardsIdTypesTypeIdPatch($id, $type_id, $operations)
 
 
 
@@ -298,7 +298,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\BoardTypesApi();
 $id = 56; // int | 
 $type_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->serviceBoardsIdTypesTypeIdPatch($id, $type_id, $operations);
@@ -315,11 +315,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **type_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/Type.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/Type.md)
 
 ### Authorization
 
@@ -333,7 +333,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdTypesTypeIdPut**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type serviceBoardsIdTypesTypeIdPut($id, $type_id, $type)
+> \Spinen\ConnectWise\Clients\Service\Model\Type serviceBoardsIdTypesTypeIdPut($id, $type_id, $type)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\BoardTypesApi();
 $id = 56; // int | 
 $type_id = 56; // int | 
-$type = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type | 
+$type = new \Spinen\ConnectWise\Clients\Service\Model\Type(); // \Spinen\ConnectWise\Clients\Service\Model\Type | 
 
 try {
     $result = $api_instance->serviceBoardsIdTypesTypeIdPut($id, $type_id, $type);
@@ -368,11 +368,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **type_id** | **int**|  |
- **type** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type.md)|  |
+ **type** | [**\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Type.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/Type.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Type**](../Model/Type.md)
 
 ### Authorization
 

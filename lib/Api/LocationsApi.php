@@ -96,7 +96,7 @@ class LocationsApi
      *
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Count
      */
     public function serviceLocationsCountGet($conditions = null)
     {
@@ -113,7 +113,7 @@ class LocationsApi
      *
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceLocationsCountGetWithHttpInfo($conditions = null)
     {
@@ -155,19 +155,19 @@ class LocationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count',
+                '\Spinen\ConnectWise\Clients\Service\Model\Count',
                 '/service/locations/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -190,7 +190,7 @@ class LocationsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location[]
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Location[]
      */
     public function serviceLocationsGet($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -212,7 +212,7 @@ class LocationsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Location[], HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceLocationsGetWithHttpInfo($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -274,19 +274,19 @@ class LocationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location[]',
+                '\Spinen\ConnectWise\Clients\Service\Model\Location[]',
                 '/service/locations'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Location[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Location[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -379,7 +379,7 @@ class LocationsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -397,7 +397,7 @@ class LocationsApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Location
      */
     public function serviceLocationsIdGet($id)
     {
@@ -414,7 +414,7 @@ class LocationsApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Location, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceLocationsIdGetWithHttpInfo($id)
     {
@@ -464,19 +464,19 @@ class LocationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location',
+                '\Spinen\ConnectWise\Clients\Service\Model\Location',
                 '/service/locations/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Location', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Location', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -493,9 +493,9 @@ class LocationsApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Location
      */
     public function serviceLocationsIdPatch($id, $operations)
     {
@@ -511,9 +511,9 @@ class LocationsApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Location, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceLocationsIdPatchWithHttpInfo($id, $operations)
     {
@@ -572,19 +572,19 @@ class LocationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location',
+                '\Spinen\ConnectWise\Clients\Service\Model\Location',
                 '/service/locations/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Location', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Location', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -601,9 +601,9 @@ class LocationsApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location $location  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Location $location  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Location
      */
     public function serviceLocationsIdPut($id, $location)
     {
@@ -619,9 +619,9 @@ class LocationsApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location $location  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Location $location  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Location, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceLocationsIdPutWithHttpInfo($id, $location)
     {
@@ -680,19 +680,19 @@ class LocationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location',
+                '\Spinen\ConnectWise\Clients\Service\Model\Location',
                 '/service/locations/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Location', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Location', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -708,9 +708,9 @@ class LocationsApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location $location  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Location $location  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Location
      */
     public function serviceLocationsPost($location)
     {
@@ -725,9 +725,9 @@ class LocationsApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location $location  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Location $location  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Location, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceLocationsPostWithHttpInfo($location)
     {
@@ -774,19 +774,19 @@ class LocationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location',
+                '\Spinen\ConnectWise\Clients\Service\Model\Location',
                 '/service/locations'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Location', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Location', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

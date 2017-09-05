@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **serviceLocationsCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceLocationsCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceLocationsCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceLocationsGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location[] serviceLocationsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\Location[] serviceLocationsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location[]**](../Model/Location.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Location[]**](../Model/Location.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceLocationsIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location serviceLocationsIdGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\Location serviceLocationsIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/Location.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/Location.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceLocationsIdPatch**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location serviceLocationsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Service\Model\Location serviceLocationsIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\LocationsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->serviceLocationsIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/Location.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/Location.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceLocationsIdPut**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location serviceLocationsIdPut($id, $location)
+> \Spinen\ConnectWise\Clients\Service\Model\Location serviceLocationsIdPut($id, $location)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\LocationsApi();
 $id = 56; // int | 
-$location = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location | 
+$location = new \Spinen\ConnectWise\Clients\Service\Model\Location(); // \Spinen\ConnectWise\Clients\Service\Model\Location | 
 
 try {
     $result = $api_instance->serviceLocationsIdPut($id, $location);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **location** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location.md)|  |
+ **location** | [**\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Location.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/Location.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/Location.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceLocationsPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location serviceLocationsPost($location)
+> \Spinen\ConnectWise\Clients\Service\Model\Location serviceLocationsPost($location)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\LocationsApi();
-$location = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location | 
+$location = new \Spinen\ConnectWise\Clients\Service\Model\Location(); // \Spinen\ConnectWise\Clients\Service\Model\Location | 
 
 try {
     $result = $api_instance->serviceLocationsPost($location);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **location** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location.md)|  |
+ **location** | [**\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Location.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/Location.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Location**](../Model/Location.md)
 
 ### Authorization
 

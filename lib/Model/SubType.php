@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -62,7 +62,7 @@ class SubType implements ArrayAccess
         'add_all_types' => 'bool',
         'remove_all_types' => 'bool',
         'board_id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -347,7 +347,7 @@ class SubType implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -356,7 +356,7 @@ class SubType implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

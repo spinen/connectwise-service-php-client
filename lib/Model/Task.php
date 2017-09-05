@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -60,12 +60,12 @@ class Task implements ArrayAccess
         'notes' => 'string',
         'closed_flag' => 'bool',
         'priority' => 'int',
-        'schedule' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference',
-        'code' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceCodeReference',
+        'schedule' => '\Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference',
+        'code' => '\Spinen\ConnectWise\Clients\Service\Model\ServiceCodeReference',
         'resolution' => 'string',
         'child_schedule_action' => 'string',
         'child_ticket_id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -350,7 +350,7 @@ class Task implements ArrayAccess
 
     /**
      * Gets schedule
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference
      */
     public function getSchedule()
     {
@@ -359,7 +359,7 @@ class Task implements ArrayAccess
 
     /**
      * Sets schedule
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference $schedule
+     * @param \Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference $schedule
      * @return $this
      */
     public function setSchedule($schedule)
@@ -371,7 +371,7 @@ class Task implements ArrayAccess
 
     /**
      * Gets code
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceCodeReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\ServiceCodeReference
      */
     public function getCode()
     {
@@ -380,7 +380,7 @@ class Task implements ArrayAccess
 
     /**
      * Sets code
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceCodeReference $code
+     * @param \Spinen\ConnectWise\Clients\Service\Model\ServiceCodeReference $code
      * @return $this
      */
     public function setCode($code)
@@ -459,7 +459,7 @@ class Task implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -468,7 +468,7 @@ class Task implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

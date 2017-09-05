@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -61,12 +61,12 @@ class KnowledgeBaseArticle implements ArrayAccess
         'resolution' => 'string',
         'location_id' => 'int',
         'business_unit_id' => 'int',
-        'board' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\BoardReference',
+        'board' => '\Spinen\ConnectWise\Clients\Service\Model\BoardReference',
         'category_id' => 'int',
         'sub_category_id' => 'int',
         'date_created' => 'string',
         'created_by' => 'string',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -347,7 +347,7 @@ class KnowledgeBaseArticle implements ArrayAccess
 
     /**
      * Gets board
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\BoardReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\BoardReference
      */
     public function getBoard()
     {
@@ -356,7 +356,7 @@ class KnowledgeBaseArticle implements ArrayAccess
 
     /**
      * Sets board
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\BoardReference $board
+     * @param \Spinen\ConnectWise\Clients\Service\Model\BoardReference $board
      * @return $this
      */
     public function setBoard($board)
@@ -452,7 +452,7 @@ class KnowledgeBaseArticle implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -461,7 +461,7 @@ class KnowledgeBaseArticle implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

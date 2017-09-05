@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -58,12 +58,12 @@ class Item implements ArrayAccess
         'id' => 'int',
         'name' => 'string',
         'inactive' => 'bool',
-        'type_associations' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\TypeAssociations[]',
+        'type_associations' => '\Spinen\ConnectWise\Clients\Service\Model\TypeAssociations[]',
         'add_all_sub_types' => 'bool',
         'remove_all_sub_types' => 'bool',
         'type_id' => 'int',
         'board_id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -268,7 +268,7 @@ class Item implements ArrayAccess
 
     /**
      * Gets type_associations
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\TypeAssociations[]
+     * @return \Spinen\ConnectWise\Clients\Service\Model\TypeAssociations[]
      */
     public function getTypeAssociations()
     {
@@ -277,7 +277,7 @@ class Item implements ArrayAccess
 
     /**
      * Sets type_associations
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\TypeAssociations[] $type_associations
+     * @param \Spinen\ConnectWise\Clients\Service\Model\TypeAssociations[] $type_associations
      * @return $this
      */
     public function setTypeAssociations($type_associations)
@@ -373,7 +373,7 @@ class Item implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -382,7 +382,7 @@ class Item implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

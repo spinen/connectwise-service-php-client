@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsBoardIdSubTypesSubtypeIdAssociationsAssociationIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation serviceBoardsBoardIdSubTypesSubtypeIdAssociationsAssociationIdGet($board_id, $subtype_id, $association_id)
+> \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation serviceBoardsBoardIdSubTypesSubtypeIdAssociationsAssociationIdGet($board_id, $subtype_id, $association_id)
 
 
 
@@ -104,7 +104,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation**](../Model/SubtypeAssociation.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation**](../Model/SubtypeAssociation.md)
 
 ### Authorization
 
@@ -118,7 +118,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsBoardIdSubTypesSubtypeIdAssociationsCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceBoardsBoardIdSubTypesSubtypeIdAssociationsCountGet($board_id, $subtype_id, $conditions)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceBoardsBoardIdSubTypesSubtypeIdAssociationsCountGet($board_id, $subtype_id, $conditions)
 
 
 
@@ -157,7 +157,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsBoardIdSubTypesSubtypeIdAssociationsGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[] serviceBoardsBoardIdSubTypesSubtypeIdAssociationsGet($board_id, $subtype_id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[] serviceBoardsBoardIdSubTypesSubtypeIdAssociationsGet($board_id, $subtype_id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]**](../Model/SubtypeAssociation.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation[]**](../Model/SubtypeAssociation.md)
 
 ### Authorization
 
@@ -234,7 +234,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsBoardIdSubTypesSubtypeIdAssociationsPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation serviceBoardsBoardIdSubTypesSubtypeIdAssociationsPost($board_id, $subtype_id, $subtype_association)
+> \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation serviceBoardsBoardIdSubTypesSubtypeIdAssociationsPost($board_id, $subtype_id, $subtype_association)
 
 
 
@@ -252,7 +252,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\BoardSubtypeAssociationsApi();
 $board_id = 56; // int | 
 $subtype_id = 56; // int | 
-$subtype_association = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation | 
+$subtype_association = new \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation(); // \Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation | 
 
 try {
     $result = $api_instance->serviceBoardsBoardIdSubTypesSubtypeIdAssociationsPost($board_id, $subtype_id, $subtype_association);
@@ -269,11 +269,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **board_id** | **int**|  |
  **subtype_id** | **int**|  |
- **subtype_association** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation.md)|  |
+ **subtype_association** | [**\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation**](../Model/\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation**](../Model/SubtypeAssociation.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\SubtypeAssociation**](../Model/SubtypeAssociation.md)
 
 ### Authorization
 

@@ -32,7 +32,7 @@ Method | HTTP request | Description
 
 
 # **serviceTicketsCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsCountGet($conditions, $custom_field_conditions)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsCountGet($conditions, $custom_field_conditions)
 
 
 
@@ -69,7 +69,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -83,7 +83,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket[] serviceTicketsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\Ticket[] serviceTicketsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -128,7 +128,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket[]**](../Model/Ticket.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Ticket[]**](../Model/Ticket.md)
 
 ### Authorization
 
@@ -142,7 +142,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdActivitiesCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdActivitiesCountGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdActivitiesCountGet($id)
 
 
 
@@ -177,7 +177,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -191,7 +191,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdActivitiesGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ActivityReference[] serviceTicketsIdActivitiesGet($id, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\ActivityReference[] serviceTicketsIdActivitiesGet($id, $page, $page_size)
 
 
 
@@ -230,7 +230,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ActivityReference[]**](../Model/ActivityReference.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\ActivityReference[]**](../Model/ActivityReference.md)
 
 ### Authorization
 
@@ -294,7 +294,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdConfigurationsConfigIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference serviceTicketsIdConfigurationsConfigIdGet($id, $config_id)
+> \Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference serviceTicketsIdConfigurationsConfigIdGet($id, $config_id)
 
 
 
@@ -331,7 +331,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference**](../Model/ConfigurationReference.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference**](../Model/ConfigurationReference.md)
 
 ### Authorization
 
@@ -345,7 +345,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdConfigurationsCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdConfigurationsCountGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdConfigurationsCountGet($id)
 
 
 
@@ -380,7 +380,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -394,7 +394,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdConfigurationsGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference[] serviceTicketsIdConfigurationsGet($id, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference[] serviceTicketsIdConfigurationsGet($id, $page, $page_size)
 
 
 
@@ -433,7 +433,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference[]**](../Model/ConfigurationReference.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference[]**](../Model/ConfigurationReference.md)
 
 ### Authorization
 
@@ -447,7 +447,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdConfigurationsPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference serviceTicketsIdConfigurationsPost($id, $configuration)
+> \Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference serviceTicketsIdConfigurationsPost($id, $configuration)
 
 
 
@@ -464,7 +464,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\TicketsApi();
 $id = 56; // int | 
-$configuration = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference | 
+$configuration = new \Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference(); // \Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference | 
 
 try {
     $result = $api_instance->serviceTicketsIdConfigurationsPost($id, $configuration);
@@ -480,11 +480,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **configuration** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference.md)|  |
+ **configuration** | [**\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference**](../Model/\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference**](../Model/ConfigurationReference.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\ConfigurationReference**](../Model/ConfigurationReference.md)
 
 ### Authorization
 
@@ -546,7 +546,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdDocumentsCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdDocumentsCountGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdDocumentsCountGet($id)
 
 
 
@@ -581,7 +581,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -595,7 +595,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdDocumentsGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\DocumentReference[] serviceTicketsIdDocumentsGet($id, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\DocumentReference[] serviceTicketsIdDocumentsGet($id, $page, $page_size)
 
 
 
@@ -634,7 +634,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\DocumentReference[]**](../Model/DocumentReference.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\DocumentReference[]**](../Model/DocumentReference.md)
 
 ### Authorization
 
@@ -648,7 +648,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket serviceTicketsIdGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\Ticket serviceTicketsIdGet($id)
 
 
 
@@ -683,7 +683,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/Ticket.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/Ticket.md)
 
 ### Authorization
 
@@ -697,7 +697,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdMergePost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SuccessResponse serviceTicketsIdMergePost($id, $merge)
+> \Spinen\ConnectWise\Clients\Service\Model\SuccessResponse serviceTicketsIdMergePost($id, $merge)
 
 
 
@@ -714,7 +714,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\TicketsApi();
 $id = 56; // int | 
-$merge = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\TicketMerge(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\TicketMerge | 
+$merge = new \Spinen\ConnectWise\Clients\Service\Model\TicketMerge(); // \Spinen\ConnectWise\Clients\Service\Model\TicketMerge | 
 
 try {
     $result = $api_instance->serviceTicketsIdMergePost($id, $merge);
@@ -730,11 +730,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **merge** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\TicketMerge**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\TicketMerge.md)|  |
+ **merge** | [**\Spinen\ConnectWise\Clients\Service\Model\TicketMerge**](../Model/\Spinen\ConnectWise\Clients\Service\Model\TicketMerge.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SuccessResponse**](../Model/SuccessResponse.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\SuccessResponse**](../Model/SuccessResponse.md)
 
 ### Authorization
 
@@ -748,7 +748,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdPatch**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket serviceTicketsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Service\Model\Ticket serviceTicketsIdPatch($id, $operations)
 
 
 
@@ -765,7 +765,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\TicketsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->serviceTicketsIdPatch($id, $operations);
@@ -781,11 +781,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/Ticket.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/Ticket.md)
 
 ### Authorization
 
@@ -799,7 +799,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdProductsCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdProductsCountGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdProductsCountGet($id)
 
 
 
@@ -834,7 +834,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -848,7 +848,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdProductsGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ProductReference[] serviceTicketsIdProductsGet($id, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\ProductReference[] serviceTicketsIdProductsGet($id, $page, $page_size)
 
 
 
@@ -887,7 +887,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ProductReference[]**](../Model/ProductReference.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\ProductReference[]**](../Model/ProductReference.md)
 
 ### Authorization
 
@@ -901,7 +901,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdPut**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket serviceTicketsIdPut($id, $ticket)
+> \Spinen\ConnectWise\Clients\Service\Model\Ticket serviceTicketsIdPut($id, $ticket)
 
 
 
@@ -918,7 +918,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\TicketsApi();
 $id = 56; // int | 
-$ticket = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket | 
+$ticket = new \Spinen\ConnectWise\Clients\Service\Model\Ticket(); // \Spinen\ConnectWise\Clients\Service\Model\Ticket | 
 
 try {
     $result = $api_instance->serviceTicketsIdPut($id, $ticket);
@@ -934,11 +934,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **ticket** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket.md)|  |
+ **ticket** | [**\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Ticket.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/Ticket.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/Ticket.md)
 
 ### Authorization
 
@@ -952,7 +952,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdScheduleentriesCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdScheduleentriesCountGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdScheduleentriesCountGet($id)
 
 
 
@@ -987,7 +987,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -1001,7 +1001,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdScheduleentriesGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference[] serviceTicketsIdScheduleentriesGet($id, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference[] serviceTicketsIdScheduleentriesGet($id, $page, $page_size)
 
 
 
@@ -1040,7 +1040,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference[]**](../Model/ScheduleEntryReference.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\ScheduleEntryReference[]**](../Model/ScheduleEntryReference.md)
 
 ### Authorization
 
@@ -1054,7 +1054,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdTimeentriesCountGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdTimeentriesCountGet($id)
+> \Spinen\ConnectWise\Clients\Service\Model\Count serviceTicketsIdTimeentriesCountGet($id)
 
 
 
@@ -1089,7 +1089,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -1103,7 +1103,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsIdTimeentriesGet**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\TimeEntryReference[] serviceTicketsIdTimeentriesGet($id, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\TimeEntryReference[] serviceTicketsIdTimeentriesGet($id, $page, $page_size)
 
 
 
@@ -1142,7 +1142,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\TimeEntryReference[]**](../Model/TimeEntryReference.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\TimeEntryReference[]**](../Model/TimeEntryReference.md)
 
 ### Authorization
 
@@ -1156,7 +1156,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket serviceTicketsPost($ticket)
+> \Spinen\ConnectWise\Clients\Service\Model\Ticket serviceTicketsPost($ticket)
 
 
 
@@ -1172,7 +1172,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\TicketsApi();
-$ticket = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket | 
+$ticket = new \Spinen\ConnectWise\Clients\Service\Model\Ticket(); // \Spinen\ConnectWise\Clients\Service\Model\Ticket | 
 
 try {
     $result = $api_instance->serviceTicketsPost($ticket);
@@ -1187,11 +1187,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ticket** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket.md)|  |
+ **ticket** | [**\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Ticket.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/Ticket.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Ticket**](../Model/Ticket.md)
 
 ### Authorization
 
@@ -1205,7 +1205,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceTicketsSearchPost**
-> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket[] serviceTicketsSearchPost($filter_values, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Model\Ticket[] serviceTicketsSearchPost($filter_values, $page, $page_size)
 
 
 
@@ -1221,7 +1221,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\TicketsApi();
-$filter_values = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\FilterValues(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\FilterValues | 
+$filter_values = new \Spinen\ConnectWise\Clients\Service\Model\FilterValues(); // \Spinen\ConnectWise\Clients\Service\Model\FilterValues | 
 $page = 56; // int | 
 $page_size = 56; // int | 
 
@@ -1238,13 +1238,13 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **filter_values** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\FilterValues**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\FilterValues.md)|  |
+ **filter_values** | [**\Spinen\ConnectWise\Clients\Service\Model\FilterValues**](../Model/\Spinen\ConnectWise\Clients\Service\Model\FilterValues.md)|  |
  **page** | **int**|  | [optional]
  **page_size** | **int**|  | [optional]
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Ticket[]**](../Model/Ticket.md)
+[**\Spinen\ConnectWise\Clients\Service\Model\Ticket[]**](../Model/Ticket.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -57,14 +57,14 @@ class Team implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'name' => 'string',
-        'team_leader' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\MemberReference',
+        'team_leader' => '\Spinen\ConnectWise\Clients\Service\Model\MemberReference',
         'members' => 'int[]',
         'default_flag' => 'bool',
         'notify_on_ticket_delete' => 'bool',
         'board_id' => 'int',
         'location_id' => 'int',
         'business_unit_id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -258,7 +258,7 @@ class Team implements ArrayAccess
 
     /**
      * Gets team_leader
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\MemberReference
      */
     public function getTeamLeader()
     {
@@ -267,7 +267,7 @@ class Team implements ArrayAccess
 
     /**
      * Sets team_leader
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\MemberReference $team_leader
+     * @param \Spinen\ConnectWise\Clients\Service\Model\MemberReference $team_leader
      * @return $this
      */
     public function setTeamLeader($team_leader)
@@ -405,7 +405,7 @@ class Team implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -414,7 +414,7 @@ class Team implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

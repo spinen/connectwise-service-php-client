@@ -97,7 +97,7 @@ class BoardTeamsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Count
      */
     public function serviceBoardsIdTeamsCountGet($id, $conditions = null)
     {
@@ -115,7 +115,7 @@ class BoardTeamsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsIdTeamsCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -169,19 +169,19 @@ class BoardTeamsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count',
+                '\Spinen\ConnectWise\Clients\Service\Model\Count',
                 '/service/boards/{id}/teams/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -205,7 +205,7 @@ class BoardTeamsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team[]
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Team[]
      */
     public function serviceBoardsIdTeamsGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -228,7 +228,7 @@ class BoardTeamsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Team[], HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsIdTeamsGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -302,19 +302,19 @@ class BoardTeamsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team[]',
+                '\Spinen\ConnectWise\Clients\Service\Model\Team[]',
                 '/service/boards/{id}/teams'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Team[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Team[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -331,9 +331,9 @@ class BoardTeamsApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team $team  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Team $team  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Team
      */
     public function serviceBoardsIdTeamsPost($id, $team)
     {
@@ -349,9 +349,9 @@ class BoardTeamsApi
      * Spinen&#39;s PHP ConnectWise Client for Service API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team $team  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Team $team  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Team, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsIdTeamsPostWithHttpInfo($id, $team)
     {
@@ -410,19 +410,19 @@ class BoardTeamsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team',
+                '\Spinen\ConnectWise\Clients\Service\Model\Team',
                 '/service/boards/{id}/teams'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Team', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Team', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -529,7 +529,7 @@ class BoardTeamsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -548,7 +548,7 @@ class BoardTeamsApi
      * @param int $id  (required)
      * @param int $team_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Team
      */
     public function serviceBoardsIdTeamsTeamIdGet($id, $team_id)
     {
@@ -566,7 +566,7 @@ class BoardTeamsApi
      * @param int $id  (required)
      * @param int $team_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Team, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsIdTeamsTeamIdGetWithHttpInfo($id, $team_id)
     {
@@ -628,19 +628,19 @@ class BoardTeamsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team',
+                '\Spinen\ConnectWise\Clients\Service\Model\Team',
                 '/service/boards/{id}/teams/{teamId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Team', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Team', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -658,9 +658,9 @@ class BoardTeamsApi
      *
      * @param int $id  (required)
      * @param int $team_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Team
      */
     public function serviceBoardsIdTeamsTeamIdPatch($id, $team_id, $operations)
     {
@@ -677,9 +677,9 @@ class BoardTeamsApi
      *
      * @param int $id  (required)
      * @param int $team_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Team, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsIdTeamsTeamIdPatchWithHttpInfo($id, $team_id, $operations)
     {
@@ -750,19 +750,19 @@ class BoardTeamsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team',
+                '\Spinen\ConnectWise\Clients\Service\Model\Team',
                 '/service/boards/{id}/teams/{teamId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Team', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Team', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -780,9 +780,9 @@ class BoardTeamsApi
      *
      * @param int $id  (required)
      * @param int $team_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team $team  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Team $team  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Team
      */
     public function serviceBoardsIdTeamsTeamIdPut($id, $team_id, $team)
     {
@@ -799,9 +799,9 @@ class BoardTeamsApi
      *
      * @param int $id  (required)
      * @param int $team_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team $team  (required)
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Team $team  (required)
      * @throws \Spinen\ConnectWise\Clients\Service\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Service\Model\Team, HTTP status code, HTTP response headers (array of strings)
      */
     public function serviceBoardsIdTeamsTeamIdPutWithHttpInfo($id, $team_id, $team)
     {
@@ -872,19 +872,19 @@ class BoardTeamsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team',
+                '\Spinen\ConnectWise\Clients\Service\Model\Team',
                 '/service/boards/{id}/teams/{teamId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Service\Model\Team', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Team', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Team', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Service\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

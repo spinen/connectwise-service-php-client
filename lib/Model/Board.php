@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -60,7 +60,7 @@ class Board implements ArrayAccess
         'location_id' => 'int',
         'business_unit_id' => 'int',
         'inactive' => 'bool',
-        'sign_off_template' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceSignoffReference',
+        'sign_off_template' => '\Spinen\ConnectWise\Clients\Service\Model\ServiceSignoffReference',
         'send_to_contact' => 'bool',
         'contact_template_id' => 'int',
         'send_to_resource' => 'bool',
@@ -68,7 +68,7 @@ class Board implements ArrayAccess
         'project_flag' => 'bool',
         'show_dependencies_flag' => 'bool',
         'show_estimates_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -347,7 +347,7 @@ class Board implements ArrayAccess
 
     /**
      * Gets sign_off_template
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceSignoffReference
+     * @return \Spinen\ConnectWise\Clients\Service\Model\ServiceSignoffReference
      */
     public function getSignOffTemplate()
     {
@@ -356,7 +356,7 @@ class Board implements ArrayAccess
 
     /**
      * Sets sign_off_template
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ServiceSignoffReference $sign_off_template
+     * @param \Spinen\ConnectWise\Clients\Service\Model\ServiceSignoffReference $sign_off_template
      * @return $this
      */
     public function setSignOffTemplate($sign_off_template)
@@ -515,7 +515,7 @@ class Board implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -524,7 +524,7 @@ class Board implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
