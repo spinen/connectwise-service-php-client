@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -61,12 +61,12 @@ class KnowledgeBaseArticle implements ArrayAccess
         'resolution' => 'string',
         'location_id' => 'int',
         'business_unit_id' => 'int',
-        'board_id' => 'int',
+        'board' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\BoardReference',
         'category_id' => 'int',
         'sub_category_id' => 'int',
         'date_created' => 'string',
         'created_by' => 'string',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -85,7 +85,7 @@ class KnowledgeBaseArticle implements ArrayAccess
         'resolution' => 'resolution',
         'location_id' => 'locationId',
         'business_unit_id' => 'businessUnitId',
-        'board_id' => 'boardId',
+        'board' => 'board',
         'category_id' => 'categoryId',
         'sub_category_id' => 'subCategoryId',
         'date_created' => 'dateCreated',
@@ -105,7 +105,7 @@ class KnowledgeBaseArticle implements ArrayAccess
         'resolution' => 'setResolution',
         'location_id' => 'setLocationId',
         'business_unit_id' => 'setBusinessUnitId',
-        'board_id' => 'setBoardId',
+        'board' => 'setBoard',
         'category_id' => 'setCategoryId',
         'sub_category_id' => 'setSubCategoryId',
         'date_created' => 'setDateCreated',
@@ -125,7 +125,7 @@ class KnowledgeBaseArticle implements ArrayAccess
         'resolution' => 'getResolution',
         'location_id' => 'getLocationId',
         'business_unit_id' => 'getBusinessUnitId',
-        'board_id' => 'getBoardId',
+        'board' => 'getBoard',
         'category_id' => 'getCategoryId',
         'sub_category_id' => 'getSubCategoryId',
         'date_created' => 'getDateCreated',
@@ -170,7 +170,7 @@ class KnowledgeBaseArticle implements ArrayAccess
         $this->container['resolution'] = isset($data['resolution']) ? $data['resolution'] : null;
         $this->container['location_id'] = isset($data['location_id']) ? $data['location_id'] : null;
         $this->container['business_unit_id'] = isset($data['business_unit_id']) ? $data['business_unit_id'] : null;
-        $this->container['board_id'] = isset($data['board_id']) ? $data['board_id'] : null;
+        $this->container['board'] = isset($data['board']) ? $data['board'] : null;
         $this->container['category_id'] = isset($data['category_id']) ? $data['category_id'] : null;
         $this->container['sub_category_id'] = isset($data['sub_category_id']) ? $data['sub_category_id'] : null;
         $this->container['date_created'] = isset($data['date_created']) ? $data['date_created'] : null;
@@ -346,22 +346,22 @@ class KnowledgeBaseArticle implements ArrayAccess
     }
 
     /**
-     * Gets board_id
-     * @return int
+     * Gets board
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\BoardReference
      */
-    public function getBoardId()
+    public function getBoard()
     {
-        return $this->container['board_id'];
+        return $this->container['board'];
     }
 
     /**
-     * Sets board_id
-     * @param int $board_id
+     * Sets board
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\BoardReference $board
      * @return $this
      */
-    public function setBoardId($board_id)
+    public function setBoard($board)
     {
-        $this->container['board_id'] = $board_id;
+        $this->container['board'] = $board;
 
         return $this;
     }
@@ -452,7 +452,7 @@ class KnowledgeBaseArticle implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -461,7 +461,7 @@ class KnowledgeBaseArticle implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

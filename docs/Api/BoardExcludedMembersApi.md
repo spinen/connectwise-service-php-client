@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 
 # **serviceBoardsIdExcludedMembersCountGet**
-> \Spinen\ConnectWise\Clients\Service\Model\Count serviceBoardsIdExcludedMembersCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceBoardsIdExcludedMembersCountGet($id, $conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -114,7 +114,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdExcludedMembersExcludedMemberIdGet**
-> \Spinen\ConnectWise\Clients\Service\Model\ExcludedMember serviceBoardsIdExcludedMembersExcludedMemberIdGet($id, $excluded_member_id)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember serviceBoardsIdExcludedMembersExcludedMemberIdGet($id, $excluded_member_id)
 
 
 
@@ -151,7 +151,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember**](../Model/ExcludedMember.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember**](../Model/ExcludedMember.md)
 
 ### Authorization
 
@@ -165,7 +165,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdExcludedMembersGet**
-> \Spinen\ConnectWise\Clients\Service\Model\ExcludedMember[] serviceBoardsIdExcludedMembersGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember[] serviceBoardsIdExcludedMembersGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -212,7 +212,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember[]**](../Model/ExcludedMember.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember[]**](../Model/ExcludedMember.md)
 
 ### Authorization
 
@@ -226,7 +226,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceBoardsIdExcludedMembersPost**
-> \Spinen\ConnectWise\Clients\Service\Model\ExcludedMember serviceBoardsIdExcludedMembersPost($id, $excluded_member)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember serviceBoardsIdExcludedMembersPost($id, $excluded_member)
 
 
 
@@ -243,7 +243,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\BoardExcludedMembersApi();
 $id = 56; // int | 
-$excluded_member = new \Spinen\ConnectWise\Clients\Service\Model\ExcludedMember(); // \Spinen\ConnectWise\Clients\Service\Model\ExcludedMember | 
+$excluded_member = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember | 
 
 try {
     $result = $api_instance->serviceBoardsIdExcludedMembersPost($id, $excluded_member);
@@ -259,11 +259,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **excluded_member** | [**\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember**](../Model/\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember.md)|  |
+ **excluded_member** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember**](../Model/ExcludedMember.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ExcludedMember**](../Model/ExcludedMember.md)
 
 ### Authorization
 

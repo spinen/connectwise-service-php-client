@@ -220,6 +220,17 @@ class TicketsApiTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * Test case for serviceTicketsIdMergePost
+     *
+     * .
+     *
+     */
+    public function testServiceTicketsIdMergePost()
+    {
+
+    }
+
+    /**
      * Test case for serviceTicketsIdPatch
      *
      * .

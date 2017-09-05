@@ -105,6 +105,11 @@ Class | Method | HTTP request | Description
 *BoardSubTypesApi* | [**serviceBoardsIdSubtypesSubtypeIdGet**](docs/Api/BoardSubTypesApi.md#serviceboardsidsubtypessubtypeidget) | **GET** /service/boards/{id}/subtypes/{subtypeId} | 
 *BoardSubTypesApi* | [**serviceBoardsIdSubtypesSubtypeIdPatch**](docs/Api/BoardSubTypesApi.md#serviceboardsidsubtypessubtypeidpatch) | **PATCH** /service/boards/{id}/subtypes/{subtypeId} | 
 *BoardSubTypesApi* | [**serviceBoardsIdSubtypesSubtypeIdPut**](docs/Api/BoardSubTypesApi.md#serviceboardsidsubtypessubtypeidput) | **PUT** /service/boards/{id}/subtypes/{subtypeId} | 
+*BoardSubtypeAssociationsApi* | [**serviceBoardsBoardIdSubTypesSubtypeIdAssociationsAssociationIdDelete**](docs/Api/BoardSubtypeAssociationsApi.md#serviceboardsboardidsubtypessubtypeidassociationsassociationiddelete) | **DELETE** /service/boards/{boardId}/subTypes/{subtypeId}/associations/{associationId} | 
+*BoardSubtypeAssociationsApi* | [**serviceBoardsBoardIdSubTypesSubtypeIdAssociationsAssociationIdGet**](docs/Api/BoardSubtypeAssociationsApi.md#serviceboardsboardidsubtypessubtypeidassociationsassociationidget) | **GET** /service/boards/{boardId}/subTypes/{subtypeId}/associations/{associationId} | 
+*BoardSubtypeAssociationsApi* | [**serviceBoardsBoardIdSubTypesSubtypeIdAssociationsCountGet**](docs/Api/BoardSubtypeAssociationsApi.md#serviceboardsboardidsubtypessubtypeidassociationscountget) | **GET** /service/boards/{boardId}/subTypes/{subtypeId}/associations/count | 
+*BoardSubtypeAssociationsApi* | [**serviceBoardsBoardIdSubTypesSubtypeIdAssociationsGet**](docs/Api/BoardSubtypeAssociationsApi.md#serviceboardsboardidsubtypessubtypeidassociationsget) | **GET** /service/boards/{boardId}/subTypes/{subtypeId}/associations | 
+*BoardSubtypeAssociationsApi* | [**serviceBoardsBoardIdSubTypesSubtypeIdAssociationsPost**](docs/Api/BoardSubtypeAssociationsApi.md#serviceboardsboardidsubtypessubtypeidassociationspost) | **POST** /service/boards/{boardId}/subTypes/{subtypeId}/associations | 
 *BoardTeamsApi* | [**serviceBoardsIdTeamsCountGet**](docs/Api/BoardTeamsApi.md#serviceboardsidteamscountget) | **GET** /service/boards/{id}/teams/count | 
 *BoardTeamsApi* | [**serviceBoardsIdTeamsGet**](docs/Api/BoardTeamsApi.md#serviceboardsidteamsget) | **GET** /service/boards/{id}/teams | 
 *BoardTeamsApi* | [**serviceBoardsIdTeamsPost**](docs/Api/BoardTeamsApi.md#serviceboardsidteamspost) | **POST** /service/boards/{id}/teams | 
@@ -211,6 +216,7 @@ Class | Method | HTTP request | Description
 *TicketsApi* | [**serviceTicketsIdDocumentsCountGet**](docs/Api/TicketsApi.md#serviceticketsiddocumentscountget) | **GET** /service/tickets/{id}/documents/count | 
 *TicketsApi* | [**serviceTicketsIdDocumentsGet**](docs/Api/TicketsApi.md#serviceticketsiddocumentsget) | **GET** /service/tickets/{id}/documents | 
 *TicketsApi* | [**serviceTicketsIdGet**](docs/Api/TicketsApi.md#serviceticketsidget) | **GET** /service/tickets/{id} | 
+*TicketsApi* | [**serviceTicketsIdMergePost**](docs/Api/TicketsApi.md#serviceticketsidmergepost) | **POST** /service/tickets/{id}/merge | 
 *TicketsApi* | [**serviceTicketsIdPatch**](docs/Api/TicketsApi.md#serviceticketsidpatch) | **PATCH** /service/tickets/{id} | 
 *TicketsApi* | [**serviceTicketsIdProductsCountGet**](docs/Api/TicketsApi.md#serviceticketsidproductscountget) | **GET** /service/tickets/{id}/products/count | 
 *TicketsApi* | [**serviceTicketsIdProductsGet**](docs/Api/TicketsApi.md#serviceticketsidproductsget) | **GET** /service/tickets/{id}/products | 
@@ -270,6 +276,8 @@ Class | Method | HTTP request | Description
  - [Source](docs/Model/Source.md)
  - [Status](docs/Model/Status.md)
  - [SubType](docs/Model/SubType.md)
+ - [SubtypeAssociation](docs/Model/SubtypeAssociation.md)
+ - [SuccessResponse](docs/Model/SuccessResponse.md)
  - [Survey](docs/Model/Survey.md)
  - [SurveyQuestion](docs/Model/SurveyQuestion.md)
  - [SurveyQuestionOption](docs/Model/SurveyQuestionOption.md)
@@ -278,6 +286,7 @@ Class | Method | HTTP request | Description
  - [Task](docs/Model/Task.md)
  - [Team](docs/Model/Team.md)
  - [Ticket](docs/Model/Ticket.md)
+ - [TicketMerge](docs/Model/TicketMerge.md)
  - [TimeEntryReference](docs/Model/TimeEntryReference.md)
  - [Type](docs/Model/Type.md)
  - [TypeAssociations](docs/Model/TypeAssociations.md)

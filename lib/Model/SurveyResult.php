@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -60,12 +60,12 @@ class SurveyResult implements ArrayAccess
         'email_address' => 'string',
         'footer_response' => 'string',
         'contact_me_flag' => 'bool',
-        'contact' => '\Spinen\ConnectWise\Clients\Service\Model\ContactReference',
-        'results' => '\Spinen\ConnectWise\Clients\Service\Model\SurveyResultDetail[]',
+        'contact' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ContactReference',
+        'results' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyResultDetail[]',
         'total_points' => 'int',
-        'company' => '\Spinen\ConnectWise\Clients\Service\Model\CompanyReference',
+        'company' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\CompanyReference',
         'survey_id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -309,7 +309,7 @@ class SurveyResult implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Service\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ContactReference
      */
     public function getContact()
     {
@@ -318,7 +318,7 @@ class SurveyResult implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Service\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -330,7 +330,7 @@ class SurveyResult implements ArrayAccess
 
     /**
      * Gets results
-     * @return \Spinen\ConnectWise\Clients\Service\Model\SurveyResultDetail[]
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyResultDetail[]
      */
     public function getResults()
     {
@@ -339,7 +339,7 @@ class SurveyResult implements ArrayAccess
 
     /**
      * Sets results
-     * @param \Spinen\ConnectWise\Clients\Service\Model\SurveyResultDetail[] $results
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyResultDetail[] $results
      * @return $this
      */
     public function setResults($results)
@@ -372,7 +372,7 @@ class SurveyResult implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Service\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -381,7 +381,7 @@ class SurveyResult implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Service\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -414,7 +414,7 @@ class SurveyResult implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -423,7 +423,7 @@ class SurveyResult implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

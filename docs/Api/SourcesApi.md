@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **serviceSourcesCountGet**
-> \Spinen\ConnectWise\Clients\Service\Model\Count serviceSourcesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count serviceSourcesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSourcesGet**
-> \Spinen\ConnectWise\Clients\Service\Model\Source[] serviceSourcesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source[] serviceSourcesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\Source[]**](../Model/Source.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source[]**](../Model/Source.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSourcesIdGet**
-> \Spinen\ConnectWise\Clients\Service\Model\Source serviceSourcesIdGet($id)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source serviceSourcesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/Source.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/Source.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSourcesIdPatch**
-> \Spinen\ConnectWise\Clients\Service\Model\Source serviceSourcesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source serviceSourcesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\SourcesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->serviceSourcesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/Source.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/Source.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSourcesIdPut**
-> \Spinen\ConnectWise\Clients\Service\Model\Source serviceSourcesIdPut($id, $source)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source serviceSourcesIdPut($id, $source)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\SourcesApi();
 $id = 56; // int | 
-$source = new \Spinen\ConnectWise\Clients\Service\Model\Source(); // \Spinen\ConnectWise\Clients\Service\Model\Source | 
+$source = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source | 
 
 try {
     $result = $api_instance->serviceSourcesIdPut($id, $source);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **source** | [**\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Source.md)|  |
+ **source** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/Source.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/Source.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **serviceSourcesPost**
-> \Spinen\ConnectWise\Clients\Service\Model\Source serviceSourcesPost($source)
+> \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source serviceSourcesPost($source)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Service\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Service\Api\SourcesApi();
-$source = new \Spinen\ConnectWise\Clients\Service\Model\Source(); // \Spinen\ConnectWise\Clients\Service\Model\Source | 
+$source = new \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source(); // \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source | 
 
 try {
     $result = $api_instance->serviceSourcesPost($source);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **source** | [**\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/\Spinen\ConnectWise\Clients\Service\Model\Source.md)|  |
+ **source** | [**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/Source.md)
+[**\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Source**](../Model/Source.md)
 
 ### Authorization
 

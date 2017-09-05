@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -59,12 +59,12 @@ class SurveyQuestion implements ArrayAccess
         'sequence_number' => 'int',
         'type' => 'string',
         'question' => 'string',
-        'options' => '\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestionOption[]',
+        'options' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestionOption[]',
         'include_flag' => 'bool',
         'required_flag' => 'bool',
         'no_answer_points' => 'int',
         'survey_id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -327,7 +327,7 @@ class SurveyQuestion implements ArrayAccess
 
     /**
      * Gets options
-     * @return \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestionOption[]
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestionOption[]
      */
     public function getOptions()
     {
@@ -336,7 +336,7 @@ class SurveyQuestion implements ArrayAccess
 
     /**
      * Sets options
-     * @param \Spinen\ConnectWise\Clients\Service\Model\SurveyQuestionOption[] $options
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\SurveyQuestionOption[] $options
      * @return $this
      */
     public function setOptions($options)
@@ -432,7 +432,7 @@ class SurveyQuestion implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -441,7 +441,7 @@ class SurveyQuestion implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

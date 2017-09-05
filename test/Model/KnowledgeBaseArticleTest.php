@@ -131,9 +131,9 @@ class KnowledgeBaseArticleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test attribute "board_id"
+     * Test attribute "board"
      */
-    public function testPropertyBoardId()
+    public function testPropertyBoard()
     {
 
     }

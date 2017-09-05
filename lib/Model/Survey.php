@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Service\Model;
+namespace Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model;
 
 use \ArrayAccess;
 
@@ -64,10 +64,10 @@ class Survey implements ArrayAccess
         'footer_text' => 'string',
         'footer_text_visible_flag' => 'bool',
         'thank_you_text' => 'string',
-        'notify_who' => '\Spinen\ConnectWise\Clients\Service\Model\GenericIdIdentifierReference',
+        'notify_who' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\GenericIdIdentifierReference',
         'notify_who_visible_flag' => 'bool',
-        'notify_member' => '\Spinen\ConnectWise\Clients\Service\Model\MemberReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Service\Model\Metadata'
+        'notify_member' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\MemberReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -447,7 +447,7 @@ class Survey implements ArrayAccess
 
     /**
      * Gets notify_who
-     * @return \Spinen\ConnectWise\Clients\Service\Model\GenericIdIdentifierReference
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\GenericIdIdentifierReference
      */
     public function getNotifyWho()
     {
@@ -456,7 +456,7 @@ class Survey implements ArrayAccess
 
     /**
      * Sets notify_who
-     * @param \Spinen\ConnectWise\Clients\Service\Model\GenericIdIdentifierReference $notify_who
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\GenericIdIdentifierReference $notify_who
      * @return $this
      */
     public function setNotifyWho($notify_who)
@@ -489,7 +489,7 @@ class Survey implements ArrayAccess
 
     /**
      * Gets notify_member
-     * @return \Spinen\ConnectWise\Clients\Service\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\MemberReference
      */
     public function getNotifyMember()
     {
@@ -498,7 +498,7 @@ class Survey implements ArrayAccess
 
     /**
      * Sets notify_member
-     * @param \Spinen\ConnectWise\Clients\Service\Model\MemberReference $notify_member
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\MemberReference $notify_member
      * @return $this
      */
     public function setNotifyMember($notify_member)
@@ -510,7 +510,7 @@ class Survey implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Service\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata
      */
     public function getInfo()
     {
@@ -519,7 +519,7 @@ class Survey implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Service\Spinen\ConnectWise\Clients\Service\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
